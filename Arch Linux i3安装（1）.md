@@ -4,12 +4,14 @@
 # 配置完成之后，按$MOD+Shift+r可以快速重启i3wm，如果配置没问题的话，可以看到新的效果了。
 
 # 注：想要i3的所有窗口均可使用中文，需安装nerd-fonts-complete
-`sudo pacman -S nerd-fonts-complete
-`
+```
+sudo pacman -S nerd-fonts-complete
+```
 
 ## 又注：安装nerd-fonts-complete字体后，alacritty的字体也会随之改变，则安装woff2-fira-code
-`sudo pacman -S woff2-fira-code`
-`
+```
+sudo pacman -S woff2-fira-code`
+```
 ### 安装woff2-fira-code后请在~/.config/alacritty/alacritty.yml里找到fonts:和family:取消注释，在family:后加入Fira Code
 #### 保存退出后即可使用
 
